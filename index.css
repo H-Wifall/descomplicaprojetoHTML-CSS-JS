@@ -83,6 +83,16 @@ body {
 
 .carousel-pic {
     color: rgb(223, 199, 20);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px black;
+    /* background-color: red; */
+    position:relative;
+    background-position: 50%;
+}
+
+.carousel-head {
+    color: rgb(223, 199, 20);
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 4px black;
@@ -92,7 +102,7 @@ body {
 }
 
 .banner-text{
-    color: #ff0022;
+    color: #b21228;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -100,4 +110,31 @@ body {
     background-position: 0%;
     text-align: center;
     
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1090px;
+}
+
+.carousel .item {
+        height: 200px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    margin: 0 auto; 
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    color: #000;
 }
